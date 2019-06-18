@@ -1,15 +1,15 @@
 # 100pian网站数据
 
-## 1. 网址：
+### 1. 网址：
 http://search.100pian.com
 
-## 2. 数据下载：
+### 2. 数据下载：
 http://search.100pian.com/shuju.tar.gz
 
-## 3. 数据恢复：
+### 3. 数据恢复：
 https://www.cnblogs.com/zhujunxiong/p/7631001.html
 
-## 4. 表结构：
+### 4. 表结构：
 CREATE TABLE `shujutable` (
   `name` varbinary(200) NOT NULL DEFAULT '',
   `xueke` varbinary(20) NOT NULL DEFAULT '',
@@ -31,6 +31,8 @@ CREATE TABLE `shujutable` (
   KEY `xueke_5` (`xueke`,`leibie`,`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=binary；
 
-## 5. 补充说明：
+### 5. 补充说明：
 nameIndex是分词后的name字段。
 
+### 6. 数据问题联系：
+微信：guangtoufangyang
