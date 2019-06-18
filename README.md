@@ -30,6 +30,10 @@ CREATE TABLE `shujutable` (
   KEY `xueke_4` (`xueke`,`click_cnt`),
   KEY `xueke_5` (`xueke`,`leibie`,`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=binary；
+其中两个字段说明：<name>标识集合名称，<jihe>表示集合内容，<nameIndex>是分词后的<name>，举个例子：
+  name: C语言complex库函数
+  jihe: cacos|||cacosf|||cacosl|||casin|||casinf|||casinl|||catan|||catanf|||catanl|||ccos|||ccosf|||ccosl|||csin|||csinf|||csinl|||ctan|||ctanf|||ctanl|||cacosh|||cacoshf|||cacoshl|||casinh|||casinhf|||casinhl|||catanh|||catanhf|||catanhl|||ccosh|||ccoshf|||ccoshl|||csinh|||csinhf|||csinhl|||ctanh|||ctanhf|||ctanhl|||cexp|||cexpf|||cexpl|||clog|||clogf|||clogl|||cabs|||cabsf|||cabsl|||cpow|||cpowf|||cpowl|||csqrt|||csqrtf|||csqrtl|||carg|||cargf|||cargl|||cimag|||cimagf|||cimagl|||cong|||congf|||congl|||cproj|||cprojf|||cprojl|||creal|||crealf|||creall
+  nameIndex: C,语言,complex,库,函数,
 
 ### 5. 补充说明：
 nameIndex是分词后的name字段。
