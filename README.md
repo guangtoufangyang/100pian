@@ -1,7 +1,7 @@
 # 100pian网站数据
 
 ### 1. 数据说明：
-此份数据为http://search.100pian.com搜索使用的原始数据，共220w+条记录。
+此份数据为 http://search.100pian.com 搜索使用的原始数据，共220w+条记录。
 
 ### 2. 数据下载：
 http://search.100pian.com/shuju.tar.gz  
