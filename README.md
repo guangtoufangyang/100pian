@@ -1,10 +1,10 @@
 # 100pian网站数据
 
-### 1. 网址：
-http://search.100pian.com
+### 1. 数据说明：
+此份数据为http://search.100pian.com搜索使用的原始数据，共220w+条记录。
 
 ### 2. 数据下载：
-http://search.100pian.com/shuju.tar.gz
+http://search.100pian.com/shuju.tar.gz  
 
 ### 3. 表结构：
 CREATE TABLE `shujutable` (  
@@ -27,10 +27,12 @@ CREATE TABLE `shujutable` (
   KEY `xueke_4` (`xueke`,`click_cnt`),  
   KEY `xueke_5` (`xueke`,`leibie`,`id`)  
   ) ENGINE=InnoDB DEFAULT CHARSET=binary；  
-其中两个字段说明：<name>标识集合名称，<jihe>表示集合内容，<nameIndex>是分词后的<name>，<xueke>和<leibie>用于数据分类，举个例子：  
-  name: C语言complex库函数  
-  jihe: cacos|||cacosf|||cacosl|||casin|||casinf|||casinl|||catan|||catanf|||catanl|||ccos|||ccosf|||ccosl|||csin|||csinf|||csinl|||ctan|||ctanf|||ctanl|||cacosh|||cacoshf|||cacoshl|||casinh|||casinhf|||casinhl|||catanh|||catanhf|||catanhl|||ccosh|||ccoshf|||ccoshl|||csinh|||csinhf|||csinhl|||ctanh|||ctanhf|||ctanhl|||cexp|||cexpf|||cexpl|||clog|||clogf|||clogl|||cabs|||cabsf|||cabsl|||cpow|||cpowf|||cpowl|||csqrt|||csqrtf|||csqrtl|||carg|||cargf|||cargl|||cimag|||cimagf|||cimagl|||cong|||congf|||congl|||cproj|||cprojf|||cprojl|||creal|||crealf|||creall  
-  nameIndex: C,语言,complex,库,函数,  
   
-### 4. 数据问题联系：
+### 4. 数据字段说明：
+ 【name】标识集合名称，【jihe】表示集合内容，【nameIndex】是分词后的【name】，【xueke】和【leibie】用于数据分类，举个例子：  
+ 【name】: C语言complex库函数  
+ 【jihe】: cacos|||cacosf|||cacosl|||casin|||casinf|||casinl|||catan|||catanf|||catanl  
+ 【nameIndex】: C,语言,complex,库,函数,  
+  
+### 5. 数据问题联系：
 微信：guangtoufangyang
