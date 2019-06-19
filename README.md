@@ -4,7 +4,8 @@
 此份数据为 http://search.100pian.com 搜索使用的原始数据，共220w+条记录。
 
 ### 2. 数据下载：
-http://search.100pian.com/shuju.tar.gz  
+直接下载： http://search.100pian.com/shuju.tar.gz  
+百度网盘： https://pan.baidu.com/s/1EQ1KOnRIjVLpT48xR5Kz8Q ，提取码：gedd
 
 ### 3. 表结构：
 CREATE TABLE `shujutable` (  
